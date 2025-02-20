@@ -1,41 +1,5 @@
 <footer>
-    <div class="container">
-        <div class="blu-band">
-            <div>
-                logo
-            </div>
-            <div>
-                digital comics
-            </div>
-            <div>
-                logo
-            </div>
-            <div>
-                DC merch
-            </div>
-        
-            <div>
-                logo
-            </div>
-            <div>
-                subscription
-            </div>
-        
-            <div>
-                logo
-            </div>
-            <div>
-                comic shop location
-            </div>
-        
-            <div>
-                logo
-            </div>
-            <div>
-                dc power visa
-            </div>
-        </div>
-        
+    <div class="container">      
         <div class="info">
             <div class="col1">
                 <h4>DC comics</h4>
