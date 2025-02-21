@@ -12,14 +12,18 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6">
          @foreach ($comics as $comic)
              <div class="col">
+                @php
+                    $slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $comic['title'])); 
+                @endphp
+                 
                  <x-card>
-                   <x-slot:image>
-                       {{$comic['thumb']}}
-                   </x-slot:image>
-                   <x-slot:title>
-                       {{$comic['title']}}
-                   </x-slot:title>
-                 </x-card>
+                     <x-slot:image>
+                         {{$comic['thumb']}}
+                        </x-slot:image>
+                      <x-slot:title>
+                          {{$comic['title']}}
+                      </x-slot:title>
+                    </x-card>
              </div>
          @endforeach
         </div>

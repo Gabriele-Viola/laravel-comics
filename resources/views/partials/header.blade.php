@@ -1,7 +1,7 @@
 <header class="bg-white">
     <div class="c container d-flex justify-content-between align-items-center ">
         <div class="logo ">
-            <a href="">
+            <a href="{{ route('home')}}">
                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="" width="60px" >
             </a>
         </div>
@@ -35,7 +35,7 @@
                     <a class="nav-link" href="">news</a>
                 </li>
                 <li class="d-flex align-items-center h-100">
-                    <a class="nav-link" href="">shop</a>
+                    <a class="nav-link" href="{{ route('shop')}}">shop</a>
                 </li>
             </ul>
         </nav>
