@@ -2,10 +2,10 @@
     <div class="c container d-flex justify-content-between align-items-center ">
         <div class="logo ">
             <a href="">
-                <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="" >
+                <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="" width="60px" >
             </a>
         </div>
-        <nav class="custom-nav d-flex py-0 m-0 w-50 align-items-center">
+        <nav class="custom-nav d-flex py-0 m-0 align-items-center justify-content-end">
             <ul class="ps-0 my-0 d-flex justify-content-between align-items-center w-100 h-100">
                 <li class="d-flex align-items-center h-100 ">
                     <a class="nav-link " href=""> characters</a>
